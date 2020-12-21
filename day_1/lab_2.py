@@ -31,20 +31,11 @@ Key responsibilities:
 
 # 2. Ask the user for each word you'll put in your Mad Lib
 animal = input("What animal is your favorite? ")
-person = input("Who is your favorite famous person?")
-hobby = input("What do you like to do for fun?")
+person = input("Who is your favorite famous person? ")
+hobby = input("What do you like to do for fun? ")
 
 # 2. Use an f-string to put each word into the Mad Lib
 print(f'My favorite animal is a {animal}. My favorite person is {person}. My favorite hobby is {hobby}.')
-
-
-
-
-
-
-
-
-
 
 
 
@@ -54,7 +45,6 @@ Make a functional solution that utilizes lists. For example, ask the user for 3 
  then use the .split() function to store each adjective and later use it in your story.
 Add randomness! Use the random module, rather than selecting which adjective goes where in the story.
 '''
-
 
 
 
