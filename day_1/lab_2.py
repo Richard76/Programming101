@@ -26,6 +26,7 @@ Key responsibilities:
     - Optimize warp drive
     - Transform trilithium crystals into biochemical material.
 '''
+'''
 # 1. Choose some text to act as your Mad Lib
 # My favorite animal is a {animal}. My favorite person is {person}. My favorite hobby is {hobby}.
 
@@ -34,9 +35,9 @@ animal = input("What animal is your favorite? ")
 person = input("Who is your favorite famous person? ")
 hobby = input("What do you like to do for fun? ")
 
-# 2. Use an f-string to put each word into the Mad Lib
+# 3. Use an f-string to put each word into the Mad Lib
 print(f'My favorite animal is a {animal}. My favorite person is {person}. My favorite hobby is {hobby}.')
-
+'''
 
 
 '''
@@ -45,7 +46,18 @@ Make a functional solution that utilizes lists. For example, ask the user for 3 
  then use the .split() function to store each adjective and later use it in your story.
 Add randomness! Use the random module, rather than selecting which adjective goes where in the story.
 '''
+animals_3 = input("What are your 3 favorite animals? (use a comma to seperate) ")
+animals_3 = animals_3.split(",")
 
+# print(animals_3)
+# print(animals_3[0])
+
+import random
+number = random.randint(0, 2)
+# print(number)
+
+random_animal = animals_3[number]
+print(f'The one I pick randomly is: {random_animal}')
 
 
 '''
