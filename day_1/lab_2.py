@@ -51,5 +51,6 @@ Add randomness! Use the random module, rather than selecting which adjective goe
 '''
 Super Advanced
 Make it a repeatable game. Once you're done prompting the user for words, prompt them for whether they'd like to hear the story.
- Use a while loop to keep asking if they'd like to hear the story again until the answer is 'no'. You could then ask them if they'd like to make another story, and so on.
+Use a while loop to keep asking if they'd like to hear the story again until the answer is 'no'.
+You could then ask them if they'd like to make another story, and so on.
 '''
