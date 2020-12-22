@@ -16,7 +16,7 @@ print("Welcome to the amazing Magic 8 Ball!")
 
 # Prompt the user to ask the 8-ball a question.
 print(" ")
-input("What is your question?")
+input("What is your question? ")
 
 # Use the random module's random.choice() to choose a prediction.
 predictions = [
@@ -44,7 +44,7 @@ print(" ")
 # Let the user choose if they want to ask a second question.
 second_question = input("Do you want to ask a second question? (Y/N) ")
 
-if second_question == "Y" or second_question == "yes" or second_question == "Yes":
+if second_question in ["y", "Y", "yes", "YES"]:
     input("What is your second and final question? ")
     print("Searching magic globe...")
     print("")
